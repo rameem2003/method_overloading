@@ -20,13 +20,13 @@ namespace method_overloading
         public void function(int a, int b, int c)
         {
             int result = a+ b + c;
-            Console.WriteLine("Sum of 3 number's is: " + result + " Thank you");
+            Console.WriteLine("Sum of 3 number's is: " + result + " Thank you.");
         }
 
         public void function(int a, int b)
         {
             int result = a + b;
-            Console.WriteLine("Sum of 2 number's is: " + result + " Thank you");
+            Console.WriteLine("Sum of 2 number's is: " + result + " Thank you.");
         }
     }
 }
